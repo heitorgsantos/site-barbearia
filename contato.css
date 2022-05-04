@@ -1,0 +1,122 @@
+* {
+  height: auto;
+}
+header {
+  background-color: rgb(157, 197, 202);
+  padding: 20px 0;
+}
+
+header img {
+  width: 15%;
+}
+
+.box {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 95px;
+  right: 0;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 1.4rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: aliceblue;
+  background-color: rgb(125, 153, 156);
+  padding: 4px 6px;
+  border: none;
+  border-radius: 5px;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+
+}
+
+form {
+  margin: 40px 0;
+  
+}
+
+form label, form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(157, 197, 202);
+  padding: 20px 0;
+  margin-top: 42px;
+}
+
+footer img {
+  width: 7%;
+}
+
+.check-box {
+  margin: 20px 0;
+}
+
+.copy {
+  font-size: 18px;
+  font-weight: bolder;
+  font-style: italic;
+  color: white;
+} 
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background-color: #459a96;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  transition: 0.8s all;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background-color: #466067;
+  transform: scale(1.04);
+}
+
+table {
+  margin: 20px 0 40px;
+}
+
+thead {
+  background: #459a96;
+  color: black;
+  font: bolder;
+}
+
+td, th {
+  border: 2px solid;
+  padding: 5px;
+}
